@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js" defer></script>
+</head>
+<style>
+    div {
+        max-width: 150px;
+        margin: auto;
+        background-color: blue;
+        text-align: center;
+        height: 100px;
+    }
+
+    button {
+        margin-top: 25%;
+    }
+</style>
+
+<body>
+    <section>
+        <h2>Bubbling vs capturing</h2>
+        <div id="el1" onclick="console.log('DIV');">
+            <button id="el2" onclick="console.log('BUTTON');">CLICK ME</button>
+        </div>
+        <br>
+        <div id="el3">
+            <button id="el4">CLICK ME</button>
+        </div>
+    </section>
+    <section>
+        <h2>Event Listener</h2>
+        <label for="demo">Demo</label>
+        <input type="text" name="demo" id="demo">
+    </section>
+</body>
+
+</html>
