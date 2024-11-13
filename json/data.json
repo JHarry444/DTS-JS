@@ -1,0 +1,14 @@
+{
+    "trainers": [
+        {
+            "name": "jh",
+            "age": 30,
+            "weapon": true
+        },
+        {
+            "name": "pb",
+            "age": 28,
+            "weapon": true
+        }
+    ]
+}
